@@ -1,0 +1,117 @@
+/* .Transactions {
+
+} */
+
+.TransactionsYear {
+  padding: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.TransactionsMonth {
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+.TransactionsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px dashed #9e9e9e;
+}
+
+.TransactionsHeader > p {
+  font-weight: 700;
+}
+
+.TransactionsDateContent {
+  display: flex;
+  align-items: center;
+}
+
+.TransactionsDateContent p {
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.TransactionsDateWrapper {
+  line-height: 14px;
+}
+
+.TransactionsDateWrapper p {
+  font-size: 12px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.GroupWrapper{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  padding: 10px 20px 0 0;
+  /* padding-left: 70px; */
+}
+
+.TransactionsList {
+  display: flex;
+}
+
+.TransactionsList:hover {
+  cursor: pointer;
+}
+.TransactionsList:active {
+  background-color: #f1f1f1;
+}
+
+.IconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+}
+
+.TransactionsIcon {
+  font-size: 25px;
+  color: #d5d5d5;
+  /* color: #a1a1a1; */
+}
+
+.TransactionsItemAccount {
+  color: #727272;
+  cursor: pointer;
+}
+
+.TransactionsItemEdit {
+  color: #727272;
+  cursor: pointer;
+}
+
+.TransactionsItemClose {
+  color: #727272;
+  cursor: pointer;
+}
+
+.TransactionsItemOnClick {
+  background-color: #f1f1f1;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.TransactionsContentWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TransactionsHidden {
+  display: none;
+}
+
+.Message {
+  padding: 0 20px;
+  text-align: center;
+}

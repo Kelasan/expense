@@ -1,0 +1,14 @@
+.Chart {
+  position: relative;
+  height: 120px;
+  font-size: 12px;
+  background-color: #f1f1f1;
+  border-top: 1px dashed #d4d4d4;
+}
+
+.Chart h3{
+  position: absolute;
+  top: 20px;
+  left: calc(100% / 2 - 35px);
+  font-size: 16px;
+}

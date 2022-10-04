@@ -1,0 +1,54 @@
+.Welcome {
+  padding: 20px;
+}
+
+.Type {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  width: 100%;
+}
+
+.Wrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.Label {
+  width: 100%;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 0;
+  color: #727272;
+}
+
+.Type input:disabled + label {
+  color: #c5c5c5;
+}
+
+.WrapperText {
+  display: flex;
+  flex-direction: column;
+}
+
+.Text {
+  display: block;
+  font-size: 14px;
+  color: #000;
+  line-height: 30px;
+}
+
+.Text:last-of-type {
+  margin-top: 0;
+}
+

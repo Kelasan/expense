@@ -1,0 +1,47 @@
+.Input {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.Input span {
+  color: #f01f30;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.InputType input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 35px;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #646464;
+  border-radius: 0;
+  outline: none;
+  outline-color: #000;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.InputType input::-webkit-date-and-time-value {
+  text-align: left;
+}
+
+.InputTypeCheckbox input {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.Input input:disabled {
+  background-color: #fff;
+  border-bottom: none;
+}

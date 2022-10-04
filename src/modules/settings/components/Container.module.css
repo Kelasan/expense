@@ -1,0 +1,9 @@
+.Container {
+  position: relative;
+  /* padding: 20px 0; */
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  background-color: #fff;
+  overflow: hidden;
+}

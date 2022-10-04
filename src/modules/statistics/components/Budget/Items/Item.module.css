@@ -1,0 +1,79 @@
+.BudgetWrapper {
+  padding: 20px 30px;
+}
+
+.Header {
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.Block {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+/* .Block:nth-of-type(10) {
+  margin-top: 20px;
+} */
+
+.Description {
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  font-size: 12px;
+}
+
+.Title {
+  font-weight: 700;
+}
+
+.SubTitle {
+  /*padding-left: 5px;*/
+  font-weight: 400;
+}
+
+.Input {
+  width: 80px;
+  height: 25px;
+  padding: 0 5px;
+  margin-left: auto;
+  text-align: right;
+  border: none;
+  border-radius: 5px;
+}
+
+.InputDisabled {
+  width: 79px;
+  height: 25px;
+  padding: 0 5px;
+  margin-left: auto;
+  text-align: right;
+  background-color: transparent;
+  border: 1px dashed #d4d4d4;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.Button {
+  width: 50px;
+  height: 25px;
+  margin-left: 5px;
+  font-size: 14px;
+  /* font-weight: 700; */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-color: #646464;
+  cursor: pointer;
+}
+
+.Button:disabled {
+  background: #ccc;
+  /* color: #000; */
+  cursor: not-allowed;
+}
+
+

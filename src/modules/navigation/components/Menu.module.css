@@ -1,0 +1,110 @@
+.menu {
+  position: sticky;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 20px 20px;
+  background-color: #f1f1f1;
+  z-index: 200;
+  margin-top: auto;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.wrapper a {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+
+.wrapper a:first-of-type {
+  text-align: start;
+}
+
+.wrapper a:last-of-type {
+  text-align: end;
+}
+
+.active {
+  position: relative;
+  font-weight: 700;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: -5px;
+  width: 41px;
+  height: 4px;
+  background-color: #000;
+}
+
+.btnBackground {
+  position:fixed;
+  top:0;
+  z-index:101;
+
+  width:100%;
+  max-width: 440px;
+  height:100%;
+
+  background:rgba(255,255,255,0.6);
+}
+
+.btnWrapper {
+  position: absolute;
+  right: 20px;
+
+  display: flex;
+  align-items: center;
+}
+
+.btnTitle {
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.menuAddBtn {
+  position: relative;
+  z-index: 100;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+
+  font-size: 20px;
+  color: #fff;
+  background-color: #2e2e2e;
+  border-radius: 25px;
+  border: none;
+
+  cursor: pointer;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.50);
+}
+
+.menuAddMinusBtn {
+  position: absolute;
+  bottom: 85px;
+}
+
+.menuAddPlusBtn {
+  position: absolute;
+  bottom: 145px;
+}
+
+.menuAddTransferBtn {
+  position: absolute;
+  bottom: 205px;
+}
+
+.menuAddBtn:hover {
+  cursor: pointer;
+}
